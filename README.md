@@ -2,10 +2,10 @@ This repository contains all of the queries used within the [Complete Guide to E
 
 <h3>Installation on Linux</h3>
 After downloading the Elasticsearch archive, extract it using the following command:
-<pre><code>tar -xvf elasticsearch-7.6.2-linux-x86_64.tar.gz</code></pre>
+<pre><code>tar -xvf elasticsearch-8.8.2-linux-x86_64.tar.gz</code></pre>
 
 After extracting the archive, you can start Elasticsearch by running the following command:
-<pre><code>./elasticsearch-7.6.2/bin/elasticsearch</code></pre>
+<pre><code>./elasticsearch-8.8.2/bin/elasticsearch</code></pre>
 
 This will generate a jwt token that you can use to authenticate with the API. You can find the token in the console output, it will look something like this:
 <pre><code>
@@ -23,6 +23,10 @@ Ubuntu command:
 <pre><code>
 bin/elasticsearch-create-enrollment-token --scope kibana
 </code></pre>
+
+Start Kiabana using the following command:
+<pre><code>bin/kibana</code></pre>
+
 
 Login to Kibana using the following URL:
 <pre><code>http://localhost:5601</code></pre>
